@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/styling.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <title>Средство для выбора безопасного банковского инструмента</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Определение средства</h1>
+        <h3>Средство для выбора безопасного банковского инструмента</h3>
+      </div>
+      <div id="work">
+        <form>
+          <h3>Вы планируете пользоваться своими средствами или заемными?</h3>
+          <select class="form-control" id="typeab">
+            <option>Дебитовая</option> 
+            <option>Кредитная</option>
+          </select>
+          <h3>Снятие наличных средств или безналичные расчеты?</h3>
+          <select class="form-control" id="creative">
+            <option>Безналичный расчет</option>
+            <option>Снятие наличных средств</option> 
+          </select>
+          <h3>Будете проводить оплату в интернете?</h3>
+          <select class="form-control" id="prefer">
+            <option>Да</option>
+            <option>Нет</option>
+          </select>
+          <h3>Будет ли проходить оплата в торговой сервесной сети?</h3>
+          <select class="form-control" id="whatdoyouthink">
+            <option>Есть смартфон</option>
+            <option>Нет смартфона</option>
+          </select>
+          <h3>Расчеты будут проводиться тольков в Укриане или еще и за границой?</h3>
+          <select class="form-control" id="flavor">
+            <option>Только Украина</option>
+            <option>Украина и заграница</option> 
+          </select>
+          <button type="submit" class="btn" name="button">Генерация</button>
+        </form>
+      </div>
+      <div id="results">
+        <h3>Результат:</h3>
+        <h1><span class="answer"></span></h1>
+      </div>
+    </div>
+  </body>
+</html>
