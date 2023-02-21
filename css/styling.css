@@ -1,0 +1,59 @@
+body {
+  background-color: #E2F1F4;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+button {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: url("../img/jumboback.png");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+}
+
+.jumbotron h1, .jumbotron h3 {
+  padding-left: 25%;
+}
+
+#work {
+  font-family: 'Courgette', cursive;
+}
+
+#results {
+  font-family: 'Lobster', cursive;
+  padding-left: 35%;
+}
+
+#results h1 {
+  font-size: 7em;
+}
+
+.blue {
+  background-color: #2980B9;
+}
+
+ .teal {
+   background-color: #1EB2C1;
+ }
+
+ .red {
+   background-color: #EC7063;
+ }
+
+ .grey {
+   background-color: #7F8C8D;
+ }
+
+ .orange {
+   background-color: #E59866;
+ }
+
+ .green {
+   background-color: #82E0AA;
+ }
